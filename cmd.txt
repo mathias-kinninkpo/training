@@ -1,0 +1,64 @@
+  190  git config --global color.status auto
+  191  echo 'git config --global color.status auto' >> cmd.txt
+  192  history
+  193  nano cmd.txt
+  194  git config --global color.status auto
+  195  git config --global color.branch auto
+  196  git config --global color.editor vim
+  197  git config --global color.tool vimdiff
+  198  git init
+  199  git config --global core.editor vim
+  200  git config --global merge.tool vimdiff
+  201  git init
+  202  history tail 10
+  203  history tail10
+  204  history| tail 10
+  205  history| tail -n10 > cmd.txt
+  206  nano cmd.txt
+  207  history| tail -n30 > cmd.txt
+  208  nano cmd.txt
+  209  git init
+  210  ls -la
+  211  ls
+  212  ls -a
+  213  cd .git
+  214  ls -a
+  215  cd ..
+  216  ls
+  217  git add .
+  218  git commit -m "Ajout d'un fichier de base juste pour m'entrainer dans git et github"
+  219  git push
+  220  echo "depot de base pour s'entrainer" >> README.md
+  221  git init
+  222  git commit -m "my first commit"
+  223  git add README.md
+  224  git commit -m "my first commit"
+  225  git remote add origin https://github.com/mathias-kinninkpo/training.git
+  226  git branch -M main
+  227  git push -u origin main
+  228  git config --global user.password vaill/123
+  229  git push -u origin main
+  230  cd ..
+  231  echo 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 >> token.txt
+  232  git push -u origin main
+  233  git init
+  234  git config --global user.name "mathias-kinninkpo"
+  235  git config --global user.email kinninkpomathias@gmail.com
+  236  git config --global core.editor vim
+  237  git config --global merge.tool vimdiff
+  238  git init
+  239  git add .
+  240  git status
+  241  cd firstprojet
+  242  git status
+  243  git push -u origin main
+  244  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
+  245  git push -u origin main
+  246  git remote add origin https://github.com/mathias-kinninkpo/training.git
+  247  nano cmd.txt
+  248  history| tail -n30 >> cmd.txt
+  249  history| tail -n60 >> cmd.txt
+git branch
+git checkout le_nom
+git merge le_nom pour fusionner
+
