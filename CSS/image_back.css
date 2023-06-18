@@ -1,0 +1,43 @@
+/*.container{
+    width: 800px;
+    height: 500px;
+   /* border: 1px solid black;
+    box-shadow: 0 0  8px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(../IMAGES/picture2.jpeg);
+    background-repeat: no-repeat;
+    /*background-size: cover;
+    background-position:top right;
+    overflow: scroll;
+    background-attachment:fixed;
+}*/
+.card{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 2px #555;
+}
+div.image_div{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-right:10px;
+    box-shadow: 5px 0px 2px #555;
+    
+}
+div.card > div:last-child{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    background-image: url(../IMAGES/back.png);
+    background-size: cover;
+    margin-left: 40px;
+
+}
+span{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 0 20px;
+}

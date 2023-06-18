@@ -1,0 +1,42 @@
+h1{
+    text-decoration: underline;
+}
+.content{
+   /* height: 100px;*/
+    width: 100px;
+    /*margin: 0px 10px;*/
+}
+.container{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+   /* display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    align-content:flex-end;*/
+    margin: 100px;
+}
+.item1{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+.item2{
+    background-color: yellow;
+    height: 300px;
+}
+.item3{
+    background-color: red;
+    height: 200px;
+    
+}
+.item4{
+    background-color: blue;
+    height: 100px;
+    /*align-self: flex-end;*/
+}

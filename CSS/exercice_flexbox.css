@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+div.container > div:first-child{
+    color: red;
+    font-weight: bold;
+    font-size:xx-large;
+    padding: auto;
+    justify-self: flex-start;
+    position: relative;
+    left: 60px;
+    
+}
+div.container > div:nth-child(2){
+    display: flex;
+    width: 300px;
+    position: relative;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    
+}
+div.container > div:last-child{
+    justify-self: flex-end;
+    display: flex;
+    width: 500px;
+    position: relative;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
